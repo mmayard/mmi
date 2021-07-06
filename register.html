@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+      <meta charset="utf-8">
+     <link rel="shortcut icon" href="img/favicon.png">
+      <link href="
+https://fonts.googleapis.com/css?family=Ubuntu
+" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" href="css/style.css">
+
+       <script src="js/p5.js"></script>
+    <script src="js/p5.sound.min.js"></script>
+    <script src="js/sketch6.js"></script>
+
+      <title>Register</title>
+   </head>
+
+<body>
+	<nav class="navbar">
+        <div class="container">
+            <div class="navbar-logo">
+                  <a href="index.html"><img src="img/logo.png" width="55" height="25"></a>
+            </div>
+
+            <div class="navbar-menu">
+                <a class="navbar-item" href="projects.html">
+                    LES ONDES
+                </a>
+               <a class="navbar-item" href="onda.html">
+                    ABOUT 
+                </a>
+                <a class="navbar-item" href="signin.php">
+                    SIGN IN
+                </a>
+                <a class="navbar-item" href="contact.html">
+                    Contact
+                </a>
+            </div>
+
+        </div>
+    </nav>
+<div id='myContainer'>
+        
+    </div>
+	<main>
+		<form class="sign" method="POST" action="register.php">
+			<!--Choix de la méthode et selection de l'action (requete au serveur)-->
+			<section class="formulaire">
+				<h2>Who's ?</h2>
+				<!--login form begin-->
+
+				<input class="name" type="text" name="prenom" placeholder="Prenom" />
+				<input class="name" type="text" name="name" placeholder="Nom" />
+				<input class="name" type="text" name="localisation" placeholder="City / Country" />
+				
+				
+				<input class="bio" type="text" name="bio" placeholder="Short description about you" />
+				
+
+			</section>
+<hr>
+			<section class="formulaire">
+				<h2>Contact</h2>
+				
+				<input class="name" type="text" name="email" placeholder="Email" />
+				<input class="name" type="text" name="telephone" placeholder="Mobile" />
+				<input class="name" type="text" name="website" placeholder="your site" />
+			</section>
+<hr>
+			<section class="formulaire">
+				<h2>You tracks</h2>
+				<input class="name" type="text" name="play" placeholder="Name of your Playlist" />
+				<input class="name" type="text" name="lizn" placeholder="link" />
+				<input class="name" type="text" name="toptrack" placeholder="Favourite Track" />
+				<input class="name" type="text" name="favartist" placeholder="Favourite Artist" />
+			</section>
+<hr>
+<br>
+			<input class="button2" type="submit" name="submit" value="Submit" />
+		</form>
+		<br>
+		<br>
+		<br>
+		<!--login form end-->
+	</main>
+	<footer class="footer">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    
+             
+
+                <div class="column">
+                        MARVIN MAYARD
+                    </div>
+                <div class="small">
+                    <ul>
+                        <li>
+                            <a href="mailto:nom.prenom@exemple.com">
+                                marvin.mayard@gmail.com
+                            </a>
+                        </li>
+                         <li>
+                            <a href="marvinmayard.com">
+                                marvinmayard.com
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
